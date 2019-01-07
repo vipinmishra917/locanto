@@ -1,0 +1,22 @@
+ Volume in drive D is Local Disk
+ Volume Serial Number is 9CCC-EE79
+
+ Directory of D:\Android\TrippersTrip
+
+07-01-2019  14:59    <DIR>          .
+07-01-2019  14:59    <DIR>          ..
+23-11-2018  15:59               127 .gitignore
+23-11-2018  15:59    <DIR>          .gradle
+07-01-2019  14:42    <DIR>          .idea
+23-11-2018  16:56    <DIR>          app
+23-11-2018  15:59               631 build.gradle
+23-11-2018  16:03    <DIR>          gradle
+23-11-2018  15:59               747 gradle.properties
+23-11-2018  15:59             4,971 gradlew
+23-11-2018  15:59             2,404 gradlew.bat
+23-11-2018  16:08               371 local.properties
+23-11-2018  15:59                16 settings.gradle
+07-01-2019  14:59                 0 Text1.txt
+23-11-2018  16:56               889 TrippersTrip.iml
+               9 File(s)         10,156 bytes
+               6 Dir(s)  95,165,833,216 bytes free
