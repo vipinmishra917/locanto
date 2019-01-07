@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layoutdesign"
+    tools:context=".CategoryActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+      <!--  <ImageView
+            android:layout_width="200dp"
+            android:layout_height="145dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/tticon"/> -->
+
+      <android.support.v7.widget.CardView
+          android:layout_width="330dp"
+          android:layout_height="500dp"
+          app:cardElevation="30dp"
+          android:layout_centerInParent="true">
+         <ImageButton
+             android:id="@+id/hotel"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="70dp"
+             android:background="@drawable/hotell" />
+
+         <TextView
+             android:id="@+id/texthotel"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="33dp"
+             android:layout_marginTop="107dp"
+             android:text="Hotel"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <ImageButton
+             android:id="@+id/railwaystation"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="190dp"
+             android:layout_marginTop="70dp"
+             android:background="@drawable/trainss" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="185dp"
+             android:layout_marginTop="107dp"
+             android:text="Railways"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="279dp"
+             android:layout_marginTop="107dp"
+             android:text="Bus"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <ImageButton
+             android:id="@+id/bus"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="270dp"
+             android:layout_marginTop="70dp"
+             android:background="@drawable/bus" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="35dp"
+             android:layout_marginTop="197dp"
+             android:text="ATM"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <ImageButton
+             android:id="@+id/hospital"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="110dp"
+             android:layout_marginTop="160dp"
+             android:background="@drawable/hospital" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="105dp"
+             android:layout_marginTop="197dp"
+             android:text="Hospital"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <ImageButton
+             android:id="@+id/airport"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="110dp"
+             android:layout_marginTop="70dp"
+             android:background="@drawable/airport" />
+
+         <ImageButton
+             android:id="@+id/Museum"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="270dp"
+             android:layout_marginTop="160dp"
+             android:background="@drawable/museum" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="269dp"
+             android:layout_marginTop="198dp"
+             android:text="Museum"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+         <ImageButton
+             android:id="@+id/Monuments"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="190dp"
+             android:layout_marginTop="160dp"
+             android:background="@drawable/monument" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="181dp"
+             android:layout_marginTop="198dp"
+             android:text="Monuments"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <ImageButton
+             android:id="@+id/park"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="250dp"
+             android:background="@drawable/park" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="32dp"
+             android:layout_marginTop="287dp"
+             android:text="Parks"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+         <ImageButton
+             android:id="@+id/club"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="110dp"
+             android:layout_marginTop="250dp"
+             android:background="@drawable/club" />
+
+         <ImageButton
+             android:id="@+id/atm"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="160dp"
+             android:background="@drawable/atm" />
+
+         <ImageButton
+             android:id="@+id/lounge"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="190dp"
+             android:layout_marginTop="250dp"
+             android:background="@drawable/lounge" />
+
+         <ImageButton
+             android:id="@+id/Amusement"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="270dp"
+             android:layout_marginTop="250dp"
+             android:background="@drawable/amusement" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="252dp"
+             android:layout_marginTop="287dp"
+             android:text="Amusement Park"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+         <ImageButton
+             android:id="@+id/temple"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="340dp"
+             android:background="@drawable/temple" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="377dp"
+             android:text="Temples"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+         <ImageButton
+             android:id="@+id/Church"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="110dp"
+             android:layout_marginTop="340dp"
+             android:background="@drawable/church" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="112dp"
+             android:layout_marginTop="377dp"
+             android:text="Church"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <ImageButton
+             android:id="@+id/mosque"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="190dp"
+             android:layout_marginTop="340dp"
+             android:background="@drawable/museum" />
+
+         <ImageButton
+             android:id="@+id/Theatre"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="270dp"
+             android:layout_marginTop="340dp"
+             android:background="@drawable/theatre" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="271dp"
+             android:layout_marginTop="377dp"
+             android:text="Theatre"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="109dp"
+             android:layout_marginTop="107dp"
+             android:text="Airport"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="113dp"
+             android:layout_marginTop="287dp"
+             android:text="Clubs"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="190dp"
+             android:layout_marginTop="287dp"
+             android:text="Lounge"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="190dp"
+             android:layout_marginTop="377dp"
+             android:text="Mosque"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <ImageButton
+             android:id="@+id/beach"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="30dp"
+             android:layout_marginTop="430dp"
+             android:background="@drawable/beach" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="33dp"
+             android:layout_marginTop="467dp"
+             android:text="Beach"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+         <ImageButton
+             android:id="@+id/malls"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="110dp"
+             android:layout_marginTop="430dp"
+             android:background="@drawable/mall" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="120dp"
+             android:layout_marginTop="467dp"
+             android:text="Mall"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+         <ImageButton
+             android:id="@+id/police"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_marginLeft="192dp"
+             android:layout_marginTop="430dp"
+             android:background="@drawable/police" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="181dp"
+             android:layout_marginTop="467dp"
+             android:text="Police station"
+             android:textColor="#000000"
+             android:textSize="11sp" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:gravity="center"
+             android:text="Categories"
+             android:textSize="25sp"
+             android:textStyle="bold"
+             android:typeface="sans" />
+
+      </android.support.v7.widget.CardView>
+   </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

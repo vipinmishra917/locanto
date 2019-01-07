@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.roshan.tripperstrip">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/trippers"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".UttrakhandAttraction" />
+        <activity
+            android:name=".AndhraPardeshActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CategoryActivity" />
+        <activity
+            android:name=".ArunachalActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AssamActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BiharActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChattisgarhActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewDelhiActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GoaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GujaratActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HimachalActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HaryanaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".jammuActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JharkhandActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KarnatakaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KeralaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MadhyaPardeshAttraction" />
+        <activity
+            android:name=".MizoramActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManipurActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MumbaiActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KeralaAttraction$KolkataActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MeghalayaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NagalandActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OdhisaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PunjabActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RajasthanActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SikkimActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UttrakhandActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TelanganaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TripuraActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TamilNaduAttraction" />
+        <activity
+            android:name=".TamilActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Information" />
+        <activity android:name=".UttarPradeshAttraction" />
+        <activity android:name=".JharkhandAttraction" />
+        <activity android:name=".KeralaAttraction" />
+        <activity android:name=".GujratAttraction" />
+        <activity android:name=".HimanchalAttraction" />
+        <activity android:name=".AndhraAttraction" />
+        <activity android:name=".RajasthanAttraction" />
+        <activity android:name=".AssamAttraction" />
+        <activity android:name=".JammuKashmir" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MaharastraAttraction" />
+        <activity android:name=".MizoramAttraction" />
+        <activity android:name=".NagalandAttraction" />
+        <activity android:name=".OdishaAttraction" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".SkimmAttraction" />
+        <activity android:name=".BiharAttraction" />
+        <activity android:name=".ChhattisgarhAttraction" />
+        <activity android:name=".TripuraAttraction" />
+        <activity android:name=".TelanganaAttraction" />
+        <activity android:name=".ArunachalAttraction" />
+        <activity android:name=".ManipurAttraction" />
+        <activity android:name=".MeghalayaAttraction" />
+        <activity android:name=".WestBengalAttraction" />
+        <activity android:name=".GoaAttraction" />
+        <activity android:name=".PanjabAttraction" />
+        <activity android:name=".ShareActivity" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".DeepLinkActivity" />
+        <activity android:name=".TrendingPlaces" />
+        <activity android:name=".MailActivity" />
+        <activity android:name=".HaryanaAttraction" />
+        <activity android:name=".KarnatakaAttraction" />
+        <activity android:name=".AboutUs"></activity>
+    </application>
+
+</manifest>

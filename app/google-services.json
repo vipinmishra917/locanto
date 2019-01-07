@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "391242977707",
+    "firebase_url": "https://tripperstrip-b22e3.firebaseio.com",
+    "project_id": "tripperstrip-b22e3",
+    "storage_bucket": "tripperstrip-b22e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391242977707:android:8cd4603284aff2b2",
+        "android_client_info": {
+          "package_name": "com.example.roshan.tripperstrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391242977707-hm4llgf0t7fnjkpd3sfpq85jiq0bbu6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roshan.tripperstrip",
+            "certificate_hash": "281f57fa78f6ba9d2ab12ef3d17a5ca029864315"
+          }
+        },
+        {
+          "client_id": "391242977707-g479skoul6oc6pbjr4tsgjke36jtrkdo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsIGqq-pAjTcFElQqu-NF7lqb3JSzpRP0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391242977707-g479skoul6oc6pbjr4tsgjke36jtrkdo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.roshan.tripperstrip.AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="165dp"
+            android:background="@drawable/tticon"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+        <android.support.v7.widget.CardView
+            android:layout_width="340dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="75dp"
+            android:layout_gravity="center"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="21sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="@string/aboutus"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="195dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:text="@string/purpose"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="155dp"
+                android:text="Purpose"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
